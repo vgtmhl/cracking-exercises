@@ -1,0 +1,12 @@
+{
+  "name": "cracking-exercises",
+  "version": "1.0.0",
+  "description": "collection of exercises from cracking the coding interview book",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "michael vigato",
+  "license": "ISC"
+}
