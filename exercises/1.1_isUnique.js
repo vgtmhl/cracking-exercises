@@ -1,9 +1,9 @@
-import expect from "../utils/expect.js"
-
 /**
  * implement an algorithm to determine if a string has duplicates.
  * What id you can't use additional data structures ?
  */
+import expect from "../utils/expect.js"
+
 
 /* Option 1: O(n) with additional data structure (Set) */
 function isUnique(s) {
