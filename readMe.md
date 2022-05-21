@@ -8,4 +8,4 @@ This repo will hold my entries of solutions to the exercises from the book
 
 Questions I've left behind during the sequential consumption of the book, to which I will come back later:
 
-[] 1.9 string rotations
+- [x] 1.9 string rotations
