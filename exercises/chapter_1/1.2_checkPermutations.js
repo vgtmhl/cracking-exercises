@@ -10,6 +10,9 @@ import expect from "../utils/expect.js"
  * 
  * this runs in N(a) where a is the length of the longest between s1 and s2
  * 
+ * since permutations contain the same letter, if I sort both words, then I should get the same result. 
+ * This is another solution.
+ * 
  * @param {string} s1 
  * @param {string} s2 
  * @returns true if s1 is a permutation of s2. false otherwise.

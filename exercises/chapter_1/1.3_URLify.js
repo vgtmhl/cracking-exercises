@@ -10,6 +10,9 @@ const URL_SPACE = '%20'
  * 
  * This solution is O(n)
  * 
+ * With array memory manipulation:
+ * Another approach would be first count the number of spaces. For each space, allocate 2 extra characters in the array. 
+ * 
  * @param {string} str 
  */
 function URLify(str) {

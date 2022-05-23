@@ -25,6 +25,15 @@ export class LinkedList {
         }
 
         current.next = newTail
+        this.size++;
+    }
+
+    appendToHead(value) {
+        let newHead = new Node(value)
+
+        newHead.next = this.head;
+        this.head = newHead;
+        this.size++;
     }
 
     printList(compact = false) {
