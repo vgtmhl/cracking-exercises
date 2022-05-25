@@ -16,6 +16,7 @@ export class LinkedList {
 
         if (!this.head) {
             this.head = newTail;
+            this.size = 1;
             return;
         }
 
