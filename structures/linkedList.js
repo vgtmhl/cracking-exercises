@@ -11,6 +11,18 @@ export class LinkedList {
         this.size = 0;
     }
 
+    getTail() {
+        if (this.size <= 1) return this.head
+
+        let current = this.head
+
+        while (current.next) {
+            current = current.next
+        }
+
+        return current;
+    }
+
     appendToTail(value) {
         let newTail = new Node(value)
 
