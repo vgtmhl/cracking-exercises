@@ -35,6 +35,7 @@ class MultiStack {
                 return
             }
             this.stacks.pop()
+            this.sizes.pop()
             this.currentStack--
         }
 
