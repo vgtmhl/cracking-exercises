@@ -41,4 +41,10 @@ export class Stack {
     isEmpty() {
         return this.size === 0
     }
+
+    printStack() {
+        let out = "";
+        this.content.forEach(entry => out += `${entry} `)
+        console.log(out)
+    }
 }

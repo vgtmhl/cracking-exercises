@@ -6,7 +6,7 @@
  * - isEmpty 
  */
 
-class Queue {
+export class Queue {
     constructor() {
         this.head = null;
         this.trail = null;
@@ -42,5 +42,11 @@ class Queue {
 
     isEmpty() {
         return this.size === 0;
+    }
+
+    printQueue() {
+        let out = ""
+        this.content.forEach(entry => out += `${entry} `)
+        console.log(out)
     }
 }
