@@ -9,3 +9,5 @@ This repo will hold my entries of solutions to the exercises from the book
 Questions I've left behind during the sequential consumption of the book, to which I will come back later:
 
 - [x] 1.9 string rotations
+- [ ] 3.5 sort stack
+- [ ] 3.6 animal shelter
